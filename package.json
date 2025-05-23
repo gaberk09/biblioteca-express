@@ -8,7 +8,7 @@
 
 }
 
-  },
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,5 +16,23 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "pg": "^8.16.0"
+  }
+}
+
+ {
+  "name": "biblioteca-express-pg",
+  "version": "1.0.0",
+  "description": "API Express com PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
   }
 }
